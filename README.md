@@ -17,4 +17,4 @@ Bootstrap: cards, modal, buttom
 
 > Vista previa del index.html
 
-![Index]()
+![Index](https://raw.githubusercontent.com/ItzelAnnet13/Productos/refs/heads/main/Assets/Index.png)
