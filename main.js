@@ -34,11 +34,11 @@ function createCards(prods) {
         cardsContainer.insertAdjacentHTML("beforeend", 
             `<div class="col-sm-6 col-md-4 col-lg-3 d-flex">
             <div class="card" style="width: 18rem;">
-                <img src="${products.image}" class="card-img-top" alt="...">
+                <img src="${products.image}" class="card-img-top" alt="..." style="width: 100%; height: 250px;">
                 <div class="card-body">
                     <h5 class="card-title">${products.title}</h5>
                     <p class="card-text"> $${products.price}</p>
-                    <p class="card-text">${products.description}</p>
+                    <p class="card-text">${products.description.slice(0, 100)}...</p>
                     <button type="button" class="btn btn-primary show-modal-btn"
                             data-title="${products.title}"
                             data-desc="${products.description}"
