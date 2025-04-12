@@ -65,7 +65,7 @@ function createCards(prods) {
     prods.forEach((prod, x) => {
         const modal = `Modal-${x}`;
         mainProds.insertAdjacentHTML("beforeend", 
-            `<div class="card" style="width: 18rem;">
+            `<div class="card" style="width: 16rem;">
                 <img src="${prod.image}" class="card-img-top" alt="${prod.title}" style="height:300px; object-fit:contain;">
                 <div class="card-body">
                     <h5 class="card-title">${prod.title}</h5>
